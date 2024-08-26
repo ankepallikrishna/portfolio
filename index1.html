@@ -1,0 +1,200 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>personal portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/93c0b2a64b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+          <div class="container">
+            <nav>
+              <img src="Pictures/Krishna.png" class="logo">
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark"></i>
+              </ul>
+              <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+              <p>Web Developer</p>
+              <h1>Hi,I'm <span>krishnaveni</span><br> Ankepalli from India</h1>
+            </div>
+          </div>
+        </div>
+<!--------------------------about---------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am a recent graduate in Computer Science from IIIT ONGOLE,RGUKT,I am a thrilled about the proscept of participating in a job or interrnship program.I am eager to apply my knowledge annd skills gained throughtout  my undergraduate studies,and I am confident  that this program will further enhance my abilities.I am enthusiastic about the opportunity to contribute meaningfully to the organization and to collabrate with a team towards its betterment.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links"onclick="opentab('experience')">Experience</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Web Development</span><br>Designing web applications</li></li>
+            <li><span>python</span><br>Designing web applications using python in backend</li></li>
+            <li><span>Mysql</span><br>Managing the data in the web applications</li></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2020-2024</span><br>BTECH from IIIT ONGOLE</li></li>
+            <li><span>2018-2020</span><br>PUC from IIIT ONGOLE</li></li>
+            <li><span>2017-2018</span><br>SSC from ZPHS Guravjipeta</li></li>
+            </ul>
+            
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2023</span><br>web Development internship in Internpe</li></li>
+            <li><span>2023</span><br>python internship in Codsoft</li></li>
+           
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!----------------------------------services-------------------------->
+<div id="projects">
+  <div class="container">
+    <h1 class="sub-title">My projects</h1>
+    <div class="projects-list">
+      <div>
+        <i class="fa-solid fa-house-medical"></i>
+        <h2>Medical store management system</h2>
+        <p>It is a web application that helps manage the store details like stock available,inventory,update the medicine details and check the staff members
+          details and their timings.Here,it has the two login pages one for customer and another for admin
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-regular fa-map"></i>
+        <h2>Career Map</h2>
+        <p>It is a web application that gives visual representation of trending technologies and different domains and their related jobs and opportunities and it has the path to linkedin and naukri for showing the related domain jobs to the customers
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-house"></i>
+        <h2>Estate Explorer</h2>
+        <p>It is a web application designed to revolutionize property buying,renting and management.Users have the ability to explore a vast array of available properties,employing a versatile search and filtering system to discover homes that perfectly match their criteria
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--------------------------------------------portfolio----------------------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="Pictures/health-cure-medicine-medical-wellness-concept.jpg">
+        <div class="layer">
+          <h3>Ecommerce Web app</h3>
+          <p>It is the online shopping website.It has the two login pages one for admin other for user.It has my college medical store details only.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Pictures/careers-analysis-cooperation-data-development-concept.jpg" class="image">
+        <div class="layer">
+          <h3>career map web app</h3>
+          <p>It has the all information about the trending technologies and it is user-friendly website for the users.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Pictures/real estate.jpg">
+        <div class="layer">
+          <h3>Real estate web app</h3>
+          <p>It has the information about the where the lands are sold or rent or any other houses like offline real estate.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!----------------------------------------------------------contact------------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>ankepallikrishna847@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9391834188</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/krishnaveni-ankepalli-097958225"><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="Downloads/Krishnaveni_Ankepalli.pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your name" required>
+          <input type="text" name="email" placeholder="Your email" required>
+          <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyc8kvzB5K8uz7Aa-X2PMRp7L1mhgqBXe2qcqvuqCX25ghXPQ83Zl_mla22yY_yHdYp/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>   
+</body>
+  </html>
